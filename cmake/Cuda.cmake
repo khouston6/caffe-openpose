@@ -21,7 +21,7 @@ set(TURING "75")
 # Ampere (CUDA >= 11)
 set(AMPERE "80 86")
 # Ada (CUDA > 11.7)
-set(ADA "96"
+set(ADA "96")
 if (UNIX AND NOT APPLE)
   set(Caffe_known_gpu_archs "${KEPLER} ${MAXWELL} ${PASCAL} ${VOLTA} ${TURING} ${AMPERE} ${ADA}")
   # set(Caffe_known_gpu_archs "${FERMI} ${KEPLER} ${MAXWELL} ${PASCAL} ${VOLTA} ${TURING}")
